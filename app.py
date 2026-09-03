@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model=joblib.load("C:\\Users\\valmi\\OneDrive\\Desktop\\ML_excler_Notes\\excler assingment project\\Logestic_regression(Diebeties)\\logistic_model.pkl")
-scaler=joblib.load("C:\\Users\\valmi\\OneDrive\\Desktop\\ML_excler_Notes\\excler assingment project\\Logestic_regression(Diebeties)\\scaler.pkl")
+model = joblib.load("logistic_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 st.title("Diabetes Prediction")
 
